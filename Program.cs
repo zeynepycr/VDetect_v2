@@ -17,7 +17,7 @@ class Program
     {
         using (logWriter = new StreamWriter("scan_output.txt", append: false))
         {
-            string apiKey = "f303e6f4-69f0-4a8b-9a1f-dbbe0f86f535";
+            string apiKey = "API_KEY";
             var checker = new CVEChecker(apiKey);
 
             WriteOutput("Kurulu yazılımlar taranıyor...\n");
